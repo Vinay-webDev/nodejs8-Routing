@@ -3,3 +3,10 @@
 20240915	21:21:58	c479f072-709c-48ab-9505-bcfd7f0ba471	GET	undefined	/favicon.ico
 20240915	21:22:13	838ec64f-34eb-44ea-9543-66a3383ee317	GET	undefined	/subdir/
 20240915	21:22:13	9a654520-b59a-4d7e-a1fe-3687d1b67c65	GET	undefined	/css/style.css
+20240915	21:29:55	929e6d95-d571-4beb-a5c0-abef78dee7f1	GET	undefined	/
+20240915	21:29:55	7d101a7a-f3bb-4c4d-a48a-8622081c3b6d	GET	undefined	/css/style.css
+20240915	21:29:57	3ec7379a-77a9-4c42-ae07-5beb3b684df6	GET	undefined	/favicon.ico
+20240915	21:30:14	4118e71e-2c2f-497f-a10b-5ba33bcd4a1b	GET	undefined	/subdir/test
+20240915	21:30:14	af66c70f-717a-4457-82a5-5752dbfc7b8d	GET	undefined	/css/style.css
+20240915	21:31:04	123fa1ed-621e-4837-9f88-171e7ae42eab	GET	undefined	/subdir/lol
+20240915	21:31:04	8de8400c-c97e-4135-be1f-88bf7a135c7b	GET	undefined	/css/style.css
