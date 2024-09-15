@@ -1,0 +1,5 @@
+20240915	21:21:56	d80b31e3-22dc-4c37-ad16-96d6d3ffb21c	GET	undefined	/
+20240915	21:21:56	e9ae8077-23a3-4d73-b28b-8b297c3e8cc8	GET	undefined	/css/style.css
+20240915	21:21:58	c479f072-709c-48ab-9505-bcfd7f0ba471	GET	undefined	/favicon.ico
+20240915	21:22:13	838ec64f-34eb-44ea-9543-66a3383ee317	GET	undefined	/subdir/
+20240915	21:22:13	9a654520-b59a-4d7e-a1fe-3687d1b67c65	GET	undefined	/css/style.css
