@@ -28,8 +28,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
+//app.use('/subdir', express.static(path.join(__dirname, 'public')));
 //////////////////////////////////////////////////////
 //===========[1] handling subdir with router===========//
+// app.use('/route', require('./routes/router'));
 app.use('/subdir', require('./routes/subdir'));
 
 

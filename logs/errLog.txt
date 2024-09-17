@@ -1,0 +1,2 @@
+20240917	16:06:20	4fd33f8a-2164-4fbb-90de-03098da26a03	Error: not allowed by the CORS
+20240917	16:06:20	1e11964b-10a2-4c78-9803-a7e4d18c4c7c	Error: not allowed by the CORS

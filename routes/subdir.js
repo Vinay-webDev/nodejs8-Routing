@@ -14,7 +14,7 @@ router.get('^/$|/index(.html)?', (req, res) => {
 })
 //2. now let's also handle the other test.html file present in our subdir
 router.get('/test(.html)?', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'views', 'subdir', 'test.html'));
+    res.sendFile(path.join(__dirname, '..', 'views', 'subdir','test.html'));
 })
 
 module.exports = router;
