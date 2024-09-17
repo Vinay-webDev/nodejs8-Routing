@@ -28,7 +28,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
-//app.use('/subdir', express.static(path.join(__dirname, 'public')));
+//===================so in the new versions of express================//
+// we no longer need to use these type of additional middlewares which serve static files
+// the app.use(express.static(path.join(__dirname, 'public'))) will look for each and sub-directories as long as that have a linked static files that are present in 'public' folder  
+//app.use('/subdir', express.static(path.join(__dirname, 'public'))); // we no longer need this❌
 //////////////////////////////////////////////////////
 //===========[1] handling subdir with router===========//
 // app.use('/route', require('./routes/router'));
