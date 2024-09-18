@@ -44,6 +44,8 @@ app.use('/subdir', require('./routes/subdir'));
 
 
 
+
+
 /////////////////////////////////////////////////////
 app.get('^/$|/index(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
