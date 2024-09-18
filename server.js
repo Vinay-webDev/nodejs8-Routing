@@ -36,10 +36,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 //===========[1] handling subdir with router===========//
 // app.use('/route', require('./routes/router'));
 app.use('/subdir', require('./routes/subdir'));
-
-
-
-
+//===========[2] handling root ('/') with router==========//
+//👉👉now in the new version of express we can use regX in app.use('/*'), app.ues('^/$');👈👈
+app.use('/', require('./routes/root'));
+// still need to create root.js in the routes let's do that
 
 
 
