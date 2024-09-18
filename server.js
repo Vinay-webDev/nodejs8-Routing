@@ -18,7 +18,8 @@ const corsOptions = {
         } else {
             callback(new Error('not allowed by the CORS'));
         }
-    }
+    },
+    optionsSuccessStatus: 200 // I  forgot this😂
 }
 
 app.use(cors(corsOptions));
