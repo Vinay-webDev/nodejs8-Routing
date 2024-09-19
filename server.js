@@ -41,8 +41,10 @@ app.use('/subdir', require('./routes/subdir'));
 //👉👉now in the new version of express we can use regX in app.use('/*'), app.ues('^/$');👈👈
 app.use('/', require('./routes/root'));
 // still need to create root.js in the routes let's do that
-
-
+//============[3] let's see how we can set up an API an REST API if you say==============//
+//let's create a router for employees
+app.use('/employees', require('./routes/api/employees'));
+// we still need to create this api folder and employees.js let's do that***
 
 
 
@@ -64,65 +66,3 @@ app.use(errorHandler);
 app.listen(PORT, () => {
     console.log(`server is running on port: ${PORT}`);
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-// Route handlers
-app.get('/hello(.html)?', (req, res, next) => {
-    console.log('attemped to load hello.html!');
-    next();
-}, (req, res) => {
-    res.send('hello bro!');
-})
-
-const one = (req, res, next) => {
-    console.log('one');
-    next();
-}
-const two = (req, res, next) => {
-    console.log('two');
-    next();
-}
-const three = (req, res, next) => {
-    console.log('three');
-    res.send('finished!');
-}
-app.get('/chain(.html)?', [one, two, three]);
-*/
-
-
-
-
-
-
-
-
-
-
-
-
