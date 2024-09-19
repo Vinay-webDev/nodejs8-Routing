@@ -109,3 +109,4 @@
 20240919	18:43:42	3e112321-d449-4ca2-be23-b1140f7f6241	POST	undefined	/employees
 20240919	18:44:26	c37daa48-a85c-46fb-b24d-9464a239fa66	PUT	undefined	/employees
 20240919	18:44:49	c0c76af9-53f3-4eca-891e-47d08fde8979	DELETE	undefined	/employees
+20240919	18:48:59	8ae58a56-0596-4df9-a771-e39d033b2ed6	GET	undefined	/employees/1
