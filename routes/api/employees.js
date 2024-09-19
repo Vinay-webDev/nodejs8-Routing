@@ -3,7 +3,7 @@ const router = express.Router();
 // let's create a const called data and set it to an empty object
 const data = {};
 // this kinda connecting to the database***
-data.employees = require('../../data/employess.json');
+data.employees = require('../../data/employees.json');
 
 // let's create routes
 //router.get('/');
@@ -16,7 +16,7 @@ router.route('/')
     .post((req, res) => {
         // post is a method used when posting a new data to the database or creating a data in database
         res.json({
-            "firstname":req.body.firtname,
+            "firstname":req.body.firstname,
             "lastname":req.body.lastname
         })
     })
@@ -40,7 +40,7 @@ router.route('/:id')
             "id":req.params.id
         })
     })
-
+// now let's install thunderclient to check our routes working 
 module.exports = router;
 
 
